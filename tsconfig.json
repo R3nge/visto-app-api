@@ -1,0 +1,25 @@
+{
+  "include": [
+    "./src/**/*",
+    "src/**/*",
+    "types/**/*",
+    "src/index.tsx",
+    "src/App.tsx",
+    "src/react-navigation.d.tsd.ts"
+  ],
+  "exclude": ["node_modules/**"],
+  "compilerOptions": {
+    "module": "CommonJS",
+    "lib": ["dom", "esnext"],
+    "rootDir": "./src",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "moduleResolution": "node",
+    "outDir": "./dist"
+  },
+  "ts-node": {
+    "files": true
+  }
+}
